@@ -22,6 +22,19 @@ h1 {
   margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .col {
+    width: 100%;
+  }
+  
+  /*.col + .col {
+   margin-left: 2rem;
+  } */
+
 .hero {
   background-color: #23424a;
   color: #fff;
