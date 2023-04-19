@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -22,34 +22,40 @@ h1 {
   margin: 0 auto;
 }
 
-.row {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .col {
-    width: 100%;
-  }
-  
-  /*.col + .col {
+.row,
+.btm-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.col,
+.btm-col {
+  width: 100%;
+}
+
+/*.col + .col {
    margin-left: 2rem;
   } */
 
 .hero {
   background-color: #23424a;
   color: #fff;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .container-text {
   width: 70%;
 }
 
+.text-accent {
+  color: #87629A;
+}
+
 .btn {
   display: inline-block;
   background-color: #38cfd9;
   margin-top: 2rem;
-  padding: .75em 1.75em;
+  padding: 0.75em 1.75em;
   border-radius: 6.25rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -58,6 +64,10 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-  opacity: .8;
+  opacity: 0.8;
 }
 
+.btm-container {
+  background-color: #136C72;
+  color: #fff;
+}
