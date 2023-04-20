@@ -31,6 +31,7 @@ h1 {
 .col,
 .btm-col {
   width: 100%;
+  padding: 3em 0;
 }
 
 /*.col + .col {
@@ -49,6 +50,11 @@ h1 {
 
 .text-accent {
   color: #87629A;
+}
+
+.text-center {
+  text-align: center;
+  line-height: 1.5;
 }
 
 .btn {
